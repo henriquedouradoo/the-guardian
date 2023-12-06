@@ -10,7 +10,7 @@ const BlogPage = () => {
           ainda não viu! 
         </p>
         <Button href={'https://expo.dev/'} type="submit" className="space-x-28 py-3 mt-10">Download</Button>
-        ||||||||||||||||
+        ||
         <Button href={'https://expo.dev/'} type="submit" className="space-x-28 py-3 mt-10">Repositorio</Button>
       </PageIntro>
     </>
