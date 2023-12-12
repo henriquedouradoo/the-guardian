@@ -17,7 +17,7 @@ export default function Home() {
           <p className="mt-6 text-xl text-neutral-600">
             Somos uma empresa de gerenciamento e planejamento cujo nosso 
             propósito é fazer parte de suas metas. Nossa especialidade em tecnologia 
-            alinhado da praticidade, faz sermos o Top 1!
+            alinhado da praticidade, venha ter resultados de verdade!
             
           </p>
         </FadeIn>

@@ -31,7 +31,7 @@ const Header = ({
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href={"/contact"} invert={invert}>
-            Login
+            Contato
           </Button>
           <button
             ref={toggleRef}
@@ -90,7 +90,7 @@ const Navigation = () => {
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/process">Nosso Processo</NavigationItem>
-        <NavigationItem href="/blog">Aplicativo</NavigationItem>
+        <NavigationItem href="/blog">Blog</NavigationItem>
       </NavigationRow>
     </nav>
   );

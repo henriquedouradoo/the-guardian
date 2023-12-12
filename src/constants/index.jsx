@@ -2,11 +2,11 @@ import { SocialMediaProfiles } from "@/components/SocialMedia";
 
 export const navigation = [
   {
-    title: "Work",
+    title: "Trabalho",
     links: [
-      { title: "Amazon Clone", href: "/work/amazonclone" },
-      { title: "Bazar e-commerce", href: "/work/bazar" },
-      { title: "Blog 101", href: "/work/blog101" },
+      { title: "Guardian Notion", href: "/" },
+      { title: "Guardian Todo", href: "/" },
+      { title: "Guardian Company", href: "/" },
       {
         title: (
           <>
@@ -18,16 +18,16 @@ export const navigation = [
     ],
   },
   {
-    title: "Company",
+    title: "Guardian",
     links: [
-      { title: "About", href: "/about" },
-      { title: "Process", href: "/process" },
-      { title: "Blog", href: "/blog" },
-      { title: "Contact us", href: "/contact" },
+      { title: "Sobre", href: "/about" },
+      { title: "Processo", href: "/process" },
+      { title: "Software", href: "/blog" },
+      { title: "Contato", href: "/contact" },
     ],
   },
   {
-    title: "Connect",
+    title: "Midias",
     links: SocialMediaProfiles,
   },
 ];

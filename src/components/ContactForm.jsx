@@ -9,7 +9,7 @@ const ContactForm = () => {
     <FadeIn>
       <form>
         <h2 className="font-display text-base font-semibold text-neutral-950">
-          Work inquiries
+          Consultas de Trabalho
         </h2>
         <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
           <TextInput label="Name" name="name" autoComplete="name" />
@@ -28,7 +28,7 @@ const ContactForm = () => {
           <TextInput label="Message" name="message" />
           <div className="border border-neutral-300 px-6 py-8 first:rounded-t-2xl last:rounded-b-2xl">
             <fieldset>
-              <legend className="text-base/6 text-neutral-500">Budget</legend>
+              <legend className="text-base/6 text-neutral-500">Orçamento</legend>
             </fieldset>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-8">
               <RadioInput label="$25K – $50K" name="budget" value="25" />
@@ -38,8 +38,8 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-        <Button href={'/dashboard'} type="submit" className="mt-10">
-          Dashboard
+        <Button href={'/'} type="submit" className="mt-10">
+          Contato
         </Button>
       </form>
     </FadeIn>
