@@ -5,39 +5,33 @@ import { TagList, TagListItem } from "./TagList";
 
 const Discover = () => {
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard, shape: 1 }}>
+    <Section title="Descobrir" image={{ src: imageWhiteboard, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{" "}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+        Trabalhamos em estreita colaboração com nossos clientes para entender suas{" "}
+          <strong className="font-semibold text-neutral-950">necessidades e objetivos </strong> 
+          incorporando-nos em suas operações diárias para entender o que faz seu negócio funcionar.
         </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{" "}
-          <strong className="font-semibold text-neutral-950">business</strong>
-          accounts — handing that information over to our forensic accounting
-          team.
+        Nossa equipe de investigadores particulares acompanha o diretor da empresa por várias semanas, enquanto nossos gerentes de contas se concentram em vasculhar o lixo. Nossos especialistas seniores em segurança realizam hacks de engenharia social para obter acesso às suas contas {" "}
+          <strong className="font-semibold text-neutral-950">comerciais </strong>
+          — entregar essas informações à nossa equipe de contabilidade.
         </p>
         <p>
-          Once the full audit is complete, we report back with a comprehensive
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
+        Assim que a auditoria completa for concluída, apresentamos um relatório com um 
+          <strong className="font-semibold text-neutral-950"> plano</strong> abrangente e, mais importante, um orçamento para a gestão.
         </p>
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
+        Incluído nesta fase
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem>Questionários aprofundados</TagListItem>
+        <TagListItem>Estudos de viabilidade</TagListItem>
+        <TagListItem>Amostras de sangue</TagListItem>
+        <TagListItem>Pesquisas com funcionários</TagListItem>
+        <TagListItem>Provas de conceito</TagListItem>
+        <TagListItem>Auditoria</TagListItem>
       </TagList>
     </Section>
   );

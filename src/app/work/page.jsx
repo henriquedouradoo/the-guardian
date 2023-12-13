@@ -5,13 +5,11 @@ const WorkPage = () => {
   return (
     <>
       <PageIntro
-        eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        eyebrow="Nossos Trabalhos"
+        title="Soluções comprovadas para problemas na gestão e planejamento."
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        Acreditamos na eficiência e na maximização de nossos recursos para oferecer o melhor valor aos nossos clientes. A principal forma de fazer isso é utilizando os três softwares que desenvolvemos na Guardian.
         </p>
       </PageIntro>
     </>

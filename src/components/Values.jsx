@@ -14,42 +14,32 @@ const Values = () => {
         />
       </div>
       <SectionIntro
-        eyebrow="Our values"
-        title="Balancing reliability and innovation"
+        eyebrow="Nossos Valores"
+        title="Equilibrando confiabilidade e inovação"
       >
         <p>
-          We strive to stay at the forefront of emerging trends and
-          technologies, while completely ignoring them and forking that old
-          Rails project we feel comfortable using. We stand by our core values
-          to justify that decision.
+        Nós nos esforçamos para permanecer na vanguarda das tendências e tecnologias emergentes, a combinação equilibrada de confiabilidade e inovação permite que a empresa atenda às crescentes demandas do mercado, mantendo a integridade e segurança dos ativos gerenciados.
         </p>
       </SectionIntro>
       <Container className="mt-24">
         <GridList>
-          <GridListItem title="Meticulous">
-            The first part of any partnership is getting our designer to put
-            your logo in our template. The second step is getting them to do the
-            colors.
+          <GridListItem title="Meticulosa">
+          A primeira parte de qualquer parceria é fazer com que nosso designer coloque seu logotipo em nosso template. O segundo passo é fazer com que eles façam as cores.
           </GridListItem>
-          <GridListItem title="Efficient">
-            We pride ourselves on never missing a deadline which is easy because
-            most of the work was done years ago.
+          <GridListItem title="Eficiente">
+          Orgulhamo-nos de nunca perder um prazo, o que é fácil porque a maior parte do trabalho foi feita há anos.
           </GridListItem>
-          <GridListItem title="Adaptable">
-            Every business has unique needs and our greatest challenge is
-            shoe-horning those needs into something we already built.
+          <GridListItem title="Adaptável">
+          Cada empresa tem necessidades únicas e nosso maior desafio é transformar essas necessidades em algo que já construímos.
           </GridListItem>
-          <GridListItem title="Honest">
-            We are transparent about all of our processes, banking on the simple
-            fact our clients never actually read anything.
+          <GridListItem title="Honesto">
+          Somos transparentes em todos os nossos processos, apostando no simples fato de que nossos clientes nunca leem nada.
           </GridListItem>
-          <GridListItem title="Loyal">
-            We foster long-term relationships with our clients that go beyond
-            just delivering a product, allowing us to invoice them for decades.
+          <GridListItem title="Leal">
+          Promovemos relacionamentos de longo prazo com nossos clientes que vão além da simples entrega de um produto, permitindo-nos faturá-los por décadas.
           </GridListItem>
-          <GridListItem title="Innovative">
-            The technological landscape is always evolving and so are we. We are
-            constantly on the lookout for new open source projects to clone.
+          <GridListItem title="Inovadora">
+          O cenário tecnológico está sempre evoluindo e nós também. Estamos constantemente em busca de novos projetos de código aberto para clonar.
           </GridListItem>
         </GridList>
       </Container>

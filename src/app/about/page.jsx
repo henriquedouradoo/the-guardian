@@ -8,31 +8,27 @@ import React from "react";
 const AboutPage = () => {
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="Sobre" title="Nossa força é a colaboração">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+        Acreditamos que a nossa força reside na nossa abordagem colaborativa, que coloca os nossos clientes no centro de tudo o que fazemos.
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+          Guardian foi iniciado por um grupo de 5 pessoas que perceberam que o gerenciamento de desenvolvimento e planejamento dos clientes seria a maneira deles de deixar o seu legado. Desde o início, temos o compromisso de fazer as coisas de forma diferente, cobrando o triplo.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+          No Guardian, somos mais do que apenas colegas: somos uma família. 
+          venha fazer parte você também desse nosso lindo processo!
           </p>
+          <br />
+          <br />
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
+          <StatListItem value="212" label="Empresas Guardian" />
+          <StatListItem value="400" label="Clientes Totais" />
+          <StatListItem value="R$35M" label="Fatura" />
         </StatList>
       </Container>
       <Cultures />
