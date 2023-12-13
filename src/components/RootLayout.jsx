@@ -90,7 +90,7 @@ const Navigation = () => {
       </NavigationRow>
       <NavigationRow>
         <NavigationItem href="/process">Nosso Processo</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+        <NavigationItem href="https://guardian-company.vercel.app/">Company</NavigationItem>
       </NavigationRow>
     </nav>
   );
