@@ -34,10 +34,10 @@ const Deliver = () => {
         <ListItem title="Guardian Notion">
         Nossos projetos sempre contam com 100% de cobertura de testes para nosso cliente. Com isso desenvolvemos nosso Notion!
         </ListItem>
-        <ListItem title="Guardian Todo">
+        <ListItem title="Guardian Company">
         Nossos projetos são práticos e otimizados. Tudo que há de necessário para nosso cliente. Tenha uma ferramenta poderosa em mãos!
         </ListItem>
-        <ListItem title="Guardian Company">
+        <ListItem title="Guardian Social">
         Nossos projetos fazem parte do futuro. Não tem motivos para sua empresa não entrar para a guardian!
         </ListItem>
       </List>

@@ -28,7 +28,7 @@ const Discover = () => {
       <TagList className="mt-4">
         <TagListItem>Questionários aprofundados</TagListItem>
         <TagListItem>Estudos de viabilidade</TagListItem>
-        <TagListItem>Amostras de sangue</TagListItem>
+        <TagListItem>Comunicação</TagListItem>
         <TagListItem>Pesquisas com funcionários</TagListItem>
         <TagListItem>Provas de conceito</TagListItem>
         <TagListItem>Auditoria</TagListItem>

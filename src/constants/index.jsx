@@ -5,8 +5,8 @@ export const navigation = [
     title: "Trabalho",
     links: [
       { title: "Guardian Notion", href: "https://guardian-notion.vercel.app/" },
-      { title: "Guardian Todo", href: "https://guardian-todo.vercel.app/" },
-      { title: "Guardian Company", href: "https://guardian-social.vercel.app/" },
+      { title: "Guardian Social", href: "https://guardian-social.vercel.app/" },
+      { title: "Guardian Company", href: "https://guardian-company.vercel.app/" },
       {
         title: (
           <>
